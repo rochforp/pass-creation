@@ -1,0 +1,106 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.phy.coupon",
+  "serialNumber" : "E5982H-I4",
+  "teamIdentifier" : "98B56V5Z9C",
+  "webServiceURL" : "https://example.com/passes/",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "barcode" : {
+    "message" : "https://phy.net/4whEwqg5",
+    "format" : "PKBarcodeFormatQR",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "locations" : [
+    {
+      "longitude" : -86.761124,
+      "latitude" : 36.174082,
+      "relevantText"  : "Phy Office"
+    },
+    {
+      "longitude" : -86.826384,
+      "latitude" : 35.914122,
+      "relevantText" : "Twice Daily - 1316 Murfreesboro Rd"
+    },
+    {
+      "longitude" : -86.816111,
+      "latitude"  : 36.103015,
+      "relevantText"  : "Twice Daily - 4040 Hillsboro Pike"
+    },
+    {
+      "longitude" : -86.779458,
+      "latitude"  : 36.132487,
+      "relevantText"  : "Twice Daily - 2017 8th Ave South"
+    },
+    {
+      "longitude" : -86.801133,
+      "latitude"  : 35.962029,
+      "relevantText"  : "Twice Daily - 1732 North Carothers Pkwy"
+    },
+    {
+      "longitude"  : -86.815292,
+      "latitude" : 35.926359,
+      "relevantText"  : "White Bison/Twice Daily - 5060 Carothers East Pkwy"
+    },
+    {
+      "longitude" : -86.850694,
+      "latitude":  36.163492,
+      "relevantText"  : "White Bison - 5101 Centennial Blvd"
+    },
+    {
+      "longitude" : -86.776233,
+      "latitude": 36.122948,
+      "relevantText"  : "Stop in and say Hi to Jamie" 
+    },
+    {
+      "longitude"  : -86.823844,
+      "latitude" : 36.179650,
+      "relevantText"  : "Welcome to TriStar! Tell Charlton Bell he missed out!"
+    }, 
+    {
+      "longitude" : -86.797547,
+      "latitude"  : 36.132560,
+      "relevantText"  : "Welcome Home!"
+    }
+  ],
+  "organizationName" : "Phy Loyalty Demo",
+  "description" : "Share this with your friends and neighbors!",
+  "logoText" : "Phy Loyalty Demo",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(12, 126, 183)",
+  "appLaunchURL" : "https://phy.net",
+  "associatedStoreIdentifiers" : [
+    535886823
+  ],
+  "coupon" : {
+    "headerFields" : [
+      {
+        "key" : "fontHeader",
+        "label" : "Item:",
+        "value" : "808"
+      }
+    ],
+    "primaryFields" : [
+      {
+        "key" : "offer",
+        "label" : "Sharing your code reveals extra specials. The more you share, the more deals you see.",
+        "value" : "Demo"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "expires",
+        "label" : "EXPIRES",
+        "value" : "2018-06-20T10:00-05:00",
+        "isRelative" : true,
+        "dateStyle" : "PKDateStyleFull"
+      }
+    ],
+    "backFields" : [
+      {
+        "key" : "email",
+        "label" : "Email Contact",
+        "value" : "bob.rochford@phy.net or chris.blanz@phy.net"
+      }
+    ]
+  }
+}
